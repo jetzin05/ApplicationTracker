@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+        >
+<body>
+<ui:composition template="/WEB-INF/templates/layout.xhtml">
+    <ui:define name="title">ApplicationTracker - Einreichen</ui:define>
+    <ui:define name="content">
+        <form action="InputServlet">
+            <div class="container">
+                <div class="twelve columns">
+                    <fieldset>
+                        <h4>Art der Zusammenarbeit</h4>
+                        <label for="forschungskooperation">
+                            <input type="radio" name="radios" id="forschungskooperation" value="forschungskooperation" />
+                            <span>Forschungskooperation</span>
+                        </label>
+                        <label for="lehrkooperation">
+                            <input type="radio" name="radios" id="lehrkooperation" value="lehrkooperation" />
+                            <span>Lehrkooperation</span>
+                        </label>
+                    </fieldset>
+
+                    <h4>Projekttitel</h4>
+                    <input type="text" id="projekttitel" maxlength="70"/>
+                </div>
+            <div class="six columns">
+                <fieldset>
+                    <h4>Antragsteller Bayern</h4>
+
+                    <label for="bay-anrede">
+                        <span>Anrede</span>
+                        <input type="text" id="bay-anrede" />
+                    </label>
+                    <label for="bay-vorname">
+                        <span>Vorname</span>
+                        <input type="text" id="bay-vorname" />
+                    </label>
+                    <label for="bay-name">
+                        <span>Name</span>
+                        <input type="text" id="bay-name" />
+                    </label>
+                    <label for="bay-lehrstuhl">
+                        <span>Lehrstuhl</span>
+                        <input type="text" id="bay-lehrstuhl" />
+                    </label>
+                    <label for="bay-hochschule">
+                        <span>Hochschule</span>
+                        <input type="text" id="bay-hochschule" />
+                    </label>
+                    <label for="bay-anschrift">
+                        <span>Anschrift</span>
+                        <input type="text" id="bay-anschrift" />
+                    </label>
+                    <label for="bay-telefon">
+                        <span>Telefon</span>
+                        <input type="text" id="bay-telefon" />
+                    </label>
+                    <label for="bay-fax">
+                        <span>Fax</span>
+                        <input type="text" id="bay-fax" />
+                    </label>
+                    <label for="bay-mail">
+                        <span>Mail</span>
+                        <input type="text" id="bay-mail" />
+                    </label>
+                </fieldset>
+            </div>
+            <div class="six columns">
+                <fieldset>
+                    <h4>Antragsteller Frankreich</h4>
+
+                    <label for="fra-anrede">
+                        <span>Anrede</span>
+                        <input type="text" id="fra-anrede" />
+                    </label>
+                    <label for="fra-vorname">
+                        <span>Vorname</span>
+                        <input type="text" id="fra-vorname" />
+                    </label>
+                    <label for="fra-name">
+                        <span>Name</span>
+                        <input type="text" id="fra-name" />
+                    </label>
+                    <label for="fra-lehrstuhl">
+                        <span>Lehrstuhl</span>
+                        <input type="text" id="fra-lehrstuhl" />
+                    </label>
+                    <label for="fra-hochschule">
+                        <span>Hochschule</span>
+                        <input type="text" id="fra-hochschule" />
+                    </label>
+                    <label for="fra-anschrift">
+                        <span>Anschrift</span>
+                        <input type="text" id="fra-anschrift" />
+                    </label>
+                    <label for="fra-telefon">
+                        <span>Telefon</span>
+                        <input type="text" id="fra-telefon" />
+                    </label>
+                    <label for="fra-fax">
+                        <span>Fax</span>
+                        <input type="text" id="fra-fax" />
+                    </label>
+                    <label for="fra-mail">
+                        <span>Mail</span>
+                        <input type="text" id="fra-mail" />
+                    </label>
+                </fieldset>
+            </div>
+            </div>
+
+
+
+        </form>
+    </ui:define>
+</ui:composition>
+</body>
+</html>
