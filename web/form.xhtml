@@ -2,7 +2,7 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:form="http://www.springframework.org/tags/form"
         >
 <body>
 <ui:composition template="/WEB-INF/templates/layout.xhtml">
@@ -110,10 +110,34 @@
                         </label>
                     </fieldset>
                 </div>
+                <div class="twelve columns">
+                    <h4>Zusammenfassung Deutsch</h4>
+                    <label for="bay-zusammenfassung">
+                        <textarea id="bay-zusammenfassung" class="zusammenfassung-textarea"></textarea>
+                    </label>
+                </div>
+                <div class="twelve columns">
+                    <h4>Zusammenfassung Französisch</h4>
+                    <label for="fra-zusammenfassung">
+                        <textarea id="fra-zusammenfassung" class="zusammenfassung-textarea"></textarea>
+                    </label>
+                </div>
+                <div class="twelve columns">
+                    <h4>Projektbeschreibung</h4>
+                    <textarea id="fra-zusammenfassung" class="zusammenfassung-textarea-long"></textarea>
+                    <h5>oder</h5>
+                    <input type="file" id="upload-projektbeschreibung"></input>
+                </div>
+                <div class="twelve columns">
+                    <h4>Wie äussert sich die Kooperation?</h4>
+                    <label for="kooperation">
+                        <textarea id="kooperation" class="zusammenfassung-textarea"></textarea>
+                    </label>
+                </div>
+                <div class="twelve columns">
+                    <input type="submit" value="Antrag einreichen"></input>
+                </div>
             </div>
-
-
-
         </form>
     </ui:define>
 </ui:composition>

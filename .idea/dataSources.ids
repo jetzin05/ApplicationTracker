@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
-  <data-source source="LOCAL" name="Local MySQL" product="MySQL" version="5.6.12" jdbc-version="4.0" driver-name="MySQL-AB JDBC Driver" driver-version="mysql-connector-java-5.1.22 ( Revision: ${bzr.revision-id} )" uuid="059a5041-798c-46c1-850d-1259515d4dd7">
+  <data-source source="LOCAL" name="test" product="MySQL" version="5.6.12" jdbc-version="4.0" driver-name="MySQL-AB JDBC Driver" driver-version="mysql-connector-java-5.1.22 ( Revision: ${bzr.revision-id} )" uuid="19ce4dcd-f9da-41cb-821d-4ec70d9ac88b">
     <extra-name-characters>#@</extra-name-characters>
     <identifier-quote-string>`</identifier-quote-string>
     <synchronize>true</synchronize>
     <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-    <jdbc-url>jdbc:mysql://localhost:3306/</jdbc-url>
+    <jdbc-url>jdbc:mysql://localhost:3306/webeng_project</jdbc-url>
     <user-name>root</user-name>
     <user-password>dfd8dfc5dfc5dfde</user-password>
-    <schema-pattern>*</schema-pattern>
     <default-dialect>MySQL</default-dialect>
     <libraries>
       <library>
@@ -18,19 +17,6 @@
         <url>file://$PROJECT_DIR$/lib/mysql-connector-license.txt</url>
       </library>
     </libraries>
-    <ssh-properties>
-      <enabled>false</enabled>
-      <proxy-host></proxy-host>
-      <proxy-port>22</proxy-port>
-      <user></user>
-      <use-password>true</use-password>
-      <password></password>
-      <private-key-path></private-key-path>
-      <passphrase></passphrase>
-      <remote-host></remote-host>
-      <remote-port></remote-port>
-      <local-port></local-port>
-    </ssh-properties>
     <schema name="" catalog="information_schema"/>
     <schema name="" catalog="mysql"/>
     <schema name="" catalog="performance_schema"/>

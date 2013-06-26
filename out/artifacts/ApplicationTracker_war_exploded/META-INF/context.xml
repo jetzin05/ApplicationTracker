@@ -1,0 +1,8 @@
+<Context>
+
+    <Resource name="jdbc/webeng_project" auth="Container"
+              type="javax.sql.DataSource" maxActive="50" maxIdle="30" maxWait="10000"
+              username="root" password="root" driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc://localhost:3306/webeng_project" />
+
+</Context>

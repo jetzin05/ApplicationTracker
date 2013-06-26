@@ -266,4 +266,28 @@
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
 
+/* #CUSTOM
+================================================== */
+    .zusammenfassung-textarea {
+        width: 570px;
+        height: 150px;
+    }
+    .zusammenfassung-textarea-long {
+        width: 570px;
+        height: 300px;
+    }
+    .infotext {
+        height: 55px;
+    }
+    .header {
+        width: 100%;
+        font-size: 36px;
+        line-height: 48px;
+        background-color: navy;
+        color: white;
+    }
+    .header a {
+        color: #ffffff;
+        text-decoration: none;
+    }
 
